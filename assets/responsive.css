@@ -1,0 +1,346 @@
+
+
+body {
+    overflow-x: hidden;
+}
+@media (max-width: 1024px){
+  .sec1{
+
+
+  }
+  .container-sec1{
+    display: flex; 
+    flex-direction: column-reverse;
+align-items: baseline;
+justify-content: baseline;
+gap: 2rem;
+margin-left: -5rem;
+  }
+  .left-sec1{
+    padding-right: 0rem;
+    padding-left: 0rem;
+
+  }
+  
+  .Contct-me-navbar{
+    font-size: 0.8rem;
+    margin-right: 2rem;
+  }
+  .img-tittle-navbar{
+    margin-left: 2rem;
+  }
+  .Contct-me-navbar span{
+    font-size: 12px;
+margin: -1.5px;
+    /* width: 70%;
+    height: 70%; */
+  }
+  .element-navbar{
+    gap: 0.1rem;
+  }
+  .navbar{
+    gap: 0rem;
+    padding: 2rem 0rem;
+    margin: 2rem 0rem;
+  }
+  .right-sec1 img{
+    width: 18rem;
+    height: 18rem;  
+    transition: all 300ms ease-in-out;
+}
+.right-sec1 img:hover{
+    transform: scale(1.1);
+}
+.container-sec2-top{
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  flex-direction:column ;
+  gap: 2rem;
+  padding-right: 36rem;
+}
+.container-buttom-sec2{
+  flex-wrap: wrap;
+  padding-left: 5rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+.sec3{
+  padding: 2rem;
+  padding-left: 5rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  flex-direction: column;
+}
+.left-sec3 img{
+width: 17rem;
+height: 17rem;
+}
+.top-sec5{
+  padding-left: 10rem;
+}
+}
+/* شاشات الهواتف */
+@media (max-width: 768px) {
+    .navbar{
+        display: none;
+        
+    }
+    .navbar-mobile {
+      max-width: 85%;
+      position: fixed;
+      top: 1.5rem;
+      margin: 0 auto;
+      width: 91%;
+      /* display: block; */
+      background-color: #492c88e1;
+      display: flex;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      align-content: stretch;
+      justify-content: space-between;
+      border-radius: 2rem;
+      backdrop-filter: blur(10px);
+      /* filter: blur(2px); */
+      -webkit-backdrop-filter: blur(2px);
+      z-index: 1;
+  }
+  /* القائمة تكون مخفية افتراضيًا */
+/* القائمة تكون مخفية افتراضيًا */
+.navbar-mobile2 {
+  display: none; /* إخفاء القائمة عند تحميل الصفحة */
+  background: #492c88cf;
+  position: absolute;
+  top: 60px; /* تأكد من أن القائمة تظهر أسفل شريط التنقل */
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  /* -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px); */
+  /* z-index: 20; */
+}
+
+.navbar-mobile2 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-mobile2 ul li {
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar-mobile2 ul li a {
+  color: white;
+  text-decoration: none;
+}
+.navbar-mobile2.show {
+max-height: 200px; /* ارتفاع كافٍ لعرض القائمة */
+}
+
+/* تأثيرات الأشرطة عند فتح القائمة */
+.toggle.active #bar1 {
+transform: rotate(45deg) translate(5px, 5px);
+}
+
+.toggle.active #bar2 {
+opacity: 0;
+}
+
+.toggle.active #bar3 {
+transform: rotate(-45deg) translate(5px, -5px);
+}
+/* القائمة تكون مخفية افتراضيًا */
+
+  .sec1{
+     display: flex; 
+   flex-direction: column-reverse;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 3rem;
+/* width: 100%; */
+    margin-top: -4rem;
+    
+}
+.container-sec1{
+  display: flex; 
+  flex-direction: column-reverse;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 3rem;
+margin-left: -7rem;
+
+/* margin-bottom: -3rem; */
+}
+.left-sec1{
+    /* width: 100%; */
+    /* height: 50%; */
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+padding-right: 1rem;
+padding-left: 3.4rem;
+}
+.pargraph-left-sec1 p{
+  padding-right: 3rem;
+}
+.right-sec1{
+  max-width: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  padding-left: -1.8rem;
+
+}
+.right-sec1 img{
+  width: 15rem;
+  height: 20rem;
+  
+}
+.sec2{
+    /* min-width: 20rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 10rem 0rem; */
+    /* padding-left: 5rem; */
+gap: 3rem;
+/* margin-top: -15rem; */
+/* padding-bottom: 0rem; */
+padding-right: 5rem;
+
+}
+.top-sec2{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    flex-direction: column;
+    margin-left: 10rem;
+    
+}
+
+.container-sec2-top{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    flex-direction: column;
+    /* padding-left: 13rem;
+    margin-left: -35rem; */
+    gap: 0rem;
+    padding-right: 10rem;
+    margin-left: -15rem;
+
+}
+.container-buttom-sec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-top: 40rem; */
+    margin-left: -20rem;
+    gap: 2rem;
+}
+.buttom-sec2{
+    padding-top: 0rem;
+    padding-bottom: 4rem;
+
+}
+.sec3{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    flex-direction: column;
+    gap: 0rem;
+}
+.left-sec3{
+    /* padding-left: 4rem; */
+}
+.left-sec3 img{
+    width: 20rem;
+    height: 20rem;
+
+}
+.right-sec3{
+/* padding-left: 4rem; */
+}
+.sec4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec5{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+}
+.container-sec5{
+  margin-left: -27rem;
+}
+.top1-sce5{
+  padding-left: 1.6rem;
+
+}
+.container-1-sec5{
+  gap: 2.5rem;
+}
+.botton-sec5{
+  gap: 1.5rem;
+}
+
+
+
+
+.sec7{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.div-one{
+  margin-left: -10.5rem;
+  padding-right: 10rem;
+}
+.sec8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3.6rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-right{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: baseline;
+  align-items: baseline;
+}
+.navigition{
+  margin-right: 10rem;
+}
+.navigition1{
+  margin-left: 3rem;
+      }
+    }
+ 
+      
+  
+  /* شاشات الأجهزة اللوحية */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* تنسيق مخصص للأجهزة اللوحية */
+  }
+  
+  /* شاشات الكمبيوتر */
+  @media (min-width: 992px) {
+    /* تنسيق مخصص لأجهزة الكمبيوتر */
+  }
+  
